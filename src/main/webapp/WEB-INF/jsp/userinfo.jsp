@@ -25,14 +25,14 @@
 		
 			<div class="form-group">
 				<c:if test="${errors != null}">	
-			<div class="alert alert-danger" align="left">
-			<table class="table table-condensed">									
-						<c:forEach items="${errors}" var="error">
-						<tr style="height:2px;"><td><c:out value="${error.defaultMessage}" /></td></tr>
-						</c:forEach>														
-			</table>
-	       </div>
-	       </c:if>	
+			               <div class="alert alert-danger" align="left">
+			                        <table class="table table-condensed">									
+						       <c:forEach items="${errors}" var="error">
+						                 <tr style="height:2px;"><td><c:out value="${error.defaultMessage}" /></td></tr>
+						        </c:forEach>														
+			                        </table>
+	                               </div>
+	                        </c:if>	
 			</div>
 		
 			<div class="form-group">
